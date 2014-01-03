@@ -18,7 +18,7 @@ public class SerializeMyClass {
 			} catch (Exception e) { e.printStackTrace(); }*/
 			try {
 			FileInputStream fis = new FileInputStream("testSer.ser");
-			ObjectInputStream ois = new ObjectInputStream(fis);
+			ObjectInputStream ois = new ObjectInputStream();
 			MySerialClass ser  = (MySerialClass) ois.readObject(); // 4
 			System.out.println(ser.getSound());
 			ois.close();

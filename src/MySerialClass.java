@@ -7,6 +7,7 @@ public class MySerialClass implements Serializable{
 	//private int i;
 	public MySerialClass(String sound) {
 		this.sound = sound;
+		int ;
 		//this.i = i;
 	}
 	
